@@ -1,0 +1,12 @@
+/* theme.css */
+body {
+    background-color: var(--mainColor, #ffffff); /* Fallback color */
+    color: var(--text-color, #000000); /* Fallback text color */
+  }
+  
+  /* Example of theme class */
+  .theme-color {
+    background-color: var(--theme-color, #ffffff);
+    color: var(--text-color, #000000);
+  }
+  
