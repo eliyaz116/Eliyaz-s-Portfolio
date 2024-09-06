@@ -43,8 +43,16 @@ p, li, span, label, input, textarea{
 
 a{
 	text-decoration: none;
+	font-family: 'Russo One', sans-serif;
 	color:#1c8c3f;
+	font-size: 16px; /* Initial font size */
+  	transition: font-size 0.2s ease, color 0.2s ease;
 }
+a:hover {
+	text-decoration: underline; /* Adds an underline on hover */
+	font-size: 18px; 
+	color: #34a853; /* Changes color on hover */
+  }
 
 ul{
 	list-style: none;
